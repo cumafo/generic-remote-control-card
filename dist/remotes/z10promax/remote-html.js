@@ -74,90 +74,89 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#one a {
-	left: 18px;
-	top: 123px;
-	width: 37px;
-	height: 16px;
+	left: 35px;
+	top: 130px;
+	width: 9px;
+	height: 19px;
 	background: url(${base_url}/one.png) no-repeat 0 0px
 }
 
 #remote-control-z10promax li#two a {
-	left: 57px;
-	top: 123px;
-	width: 37px;
-	height: 16px;
+	left: 77px;
+	top: 130px;
+	width: 9px;
+	height: 19px;
 	background: url(${base_url}/two.png) no-repeat 0 0px
 }
 
 #remote-control-z10promax li#three a {
-	left: 101px;
-	top: 123px;
-	width: 37px;
-	height: 16px;
+	left: 121px;
+	top: 130px;
+	width: 9px;
+	height: 19px;
 	background: url(${base_url}/three.png) no-repeat 0 0px
 }
 
 #remote-control-z10promax li#four a {
-	left: 18px;
-	top: 111px;
-	width: 37px;
-	height: 16px;
+	left: 35px;
+	top: 156px;
+	width: 9px;
+	height: 19px;
 	background: url(${base_url}/four.png) no-repeat 0 0px
 }
 
 #remote-control-z10promax li#five a {
-	left: 57px;
-	top: 111px;
-	width: 37px;
-	height: 16px;
+	left: 77px;
+	top: 156px;
+	width: 9px;
+	height: 19px;
 	background: url(${base_url}/five.png) no-repeat 0 0px
 }
 
-
 #remote-control-z10promax li#six a {
-	left: 101px;
-	top: 111px;
-	width: 37px;
-	height: 16px;
+	left: 123px;
+	top: 156x;
+	width: 9px;
+	height: 19px;
 	background: url(${base_url}/six.png) no-repeat 0 0px
 }
 
 
 #remote-control-z10promax li#seven a {
-	left: 18px;
-	top: 136px;
-	width: 37px;
-	height: 16px;
+	left: 35px;
+	top: 156px;
+	width: 9px;
+	height: 19px;
 	background: url(${base_url}/seven.png) no-repeat 0 0px
 }
 
 #remote-control-z10promax li#eight a {
-	left: 57px;
-	top: 136px;
-	width: 37px;
-	height: 16px;
+	left: 77px;
+	top: 156px;
+	width: 9px;
+	height: 19px;
 	background: url(${base_url}/eight.png) no-repeat 0 0px
 }
 
 #remote-control-z10promax li#nine a {
-	left: 101px;
-	top: 136px;
-	width: 37px;
-	height: 16px;
+	left: 122px;
+	top: 156px;
+	width: 9px;
+	height: 19px;
 	background: url(${base_url}/nine.png) no-repeat 0 0px
 }
 
 
 #remote-control-z10promax li#zero a {
-	left: 57px;
-	top: 205px;
-	width: 37px;
-	height: 16px;
+	left: 77px;
+	top: 211px;
+	width: 9px;
+	height: 19px;
 	background: url(${base_url}/zero.png) no-repeat 0 0px
 }
 
 #remote-control-z10promax li#volplus a {
-	left: 18px;
+	left: 156px;
 	top: 300px;
 	width: 15px;
 	height: 25px;

@@ -1,40 +1,41 @@
 function getRemoteStyle_z10promax(config) {
-   
+
    const template = config.remote_template;
    const base_url = `/hacsfiles/generic-remote-control-card/remotes/${template}`;
+
   return `
-  ha-card {
-    background-color:transparent;
-    box-shadow:var(--paper-material-elevation-0_-_box-shadow);
-   }
-   body {
+    ha-card{
+        background-color:transparent;
+        box-shadow:var(--paper-material-elevation-0_-_box-shadow);
+    }
+    body {
     margin: 0;
     padding: 20px;
     font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif
 }
 
 .container {
-	width: 360px;
-	margin: 0 auto
+    width: 360px;
+    margin: 0 auto
 }
 
 #remote-control-z10promax {
-	position: relative;
-	background: url(${base_url}/z10promax.png) no-repeat;
-	width: 159px;
-	height: 596px
+    position: relative;
+    background: url(${base_url}/z10promax_remote.png) no-repeat;
+    width: 159px;
+    height: 596px
 }
 
 #remote-control-z10promax h2,
 #remote-control-z10promax span {
-	position: absolute;
-	left: 5000px
+    position: absolute;
+    left: 5000px
 }
 
 #remote-control-z10promax ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none
+    margin: 0;
+    padding: 0;
+    list-style-type: none
 }
 
 #power a,
@@ -351,36 +352,36 @@ function getRemoteHtml_z10promax(config){return `
             <div style="text-align:center">
 			<h1>${config.name}</h1>
 			</div>
-			<div id="remote-control-${template}">
+			<div id="remote-control-${config.remote_template}">
 				<h2>
 					Main navigation
 				</h2>
 				<ul>
-					<li id="power" class="myButton-${template}"><a href="#" title="Power"><span>Power</span></a></li>
+					<li id="power" class="myButton-${config.remote_template}"><a href="#" title="power"><span>power</span></a></li>
                 </ul>
 
 				<ul>
-					<li class="myButton-${template}" id="one"><a href="#" title="one"><span>one</span></a></li>
-					<li class="myButton-${template}" id="two"><a href="#" title="two"><span>two</span></a></li>
-					<li class="myButton-${template}" id="three"><a href="#" title="three"><span>three</span></a></li>
-					<li class="myButton-${template}" id="four"><a href="#" title="four"><span>four</span></a></li>
-					<li class="myButton-${template}" id="five"><a href="#" title="five"><span>five</span></a></li>
-					<li class="myButton-${template}" id="six"><a href="#" title="six"><span>six</span></a></li>
-					<li class="myButton-${template}" id="seven"><a href="#" title="seven"><span>seven</span></a></li>
-					<li class="myButton-${template}" id="eight"><a href="#" title="eight"><span>eight</span></a></li>
-					<li class="myButton-${template}" id="nine"><a href="#" title="nine"><span>nine</span></a></li>
-					<li class="myButton-${template}" id="zero"><a href="#" title="zero"><span>zero</span></a></li>
-					<li class="myButton-${template}" id="channelup"><a href="#" title="channel up"><span>channelup</span></a></li>
-					<li class="myButton-${template}" id="channeldown"><a href="#" title="channel down"><span>channeldown</span></a></li>
-					<li class="myButton-${template}" id="volplus"><a href="#" title="vol plus"><span>volplus</span></a></li>
-					<li class="myButton-${template}" id="volmin"><a href="#" title="vol min"><span>volmin</span></a></li>
-					<li class="myButton-${template}" id="back"><a href="#" title="back"><span>back</span></a></li>
-					<li class="myButton-${template}" id="menu"><a href="#" title="menu"><span>menu</span></a></li>
-					<li class="myButton-${template}" id="left"><a href="#" title="Left"><span>left</span></a></li>
-					<li class="myButton-${template}" id="right"><a href="#" title="right"><span>right</span></a></li>
-					<li class="myButton-${template}" id="up"><a href="#" title="up"><span>up</span></a></li>
-					<li class="myButton-${template}" id="down"><a href="#" title="down"><span>down</span></a></li>
-					<li class="myButton-${template}" id="ok"><a href="#" title="OK"><span>OK</span></a></li>
+					<li class="myButton-${config.remote_template}" id="one"><a href="#" title="one"><span>one</span></a></li>
+					<li class="myButton-${config.remote_template}" id="two"><a href="#" title="two"><span>two</span></a></li>
+					<li class="myButton-${config.remote_template}" id="three"><a href="#" title="three"><span>three</span></a></li>
+					<li class="myButton-${config.remote_template}" id="four"><a href="#" title="four"><span>four</span></a></li>
+					<li class="myButton-${config.remote_template}" id="five"><a href="#" title="five"><span>five</span></a></li>
+					<li class="myButton-${config.remote_template}" id="six"><a href="#" title="six"><span>six</span></a></li>
+					<li class="myButton-${config.remote_template}" id="seven"><a href="#" title="seven"><span>seven</span></a></li>
+					<li class="myButton-${config.remote_template}" id="eight"><a href="#" title="eight"><span>eight</span></a></li>
+					<li class="myButton-${config.remote_template}" id="nine"><a href="#" title="nine"><span>nine</span></a></li>
+					<li class="myButton-${config.remote_template}" id="zero"><a href="#" title="zero"><span>zero</span></a></li>
+					<li class="myButton-${config.remote_template}" id="channelup"><a href="#" title="channel up"><span>channelup</span></a></li>
+					<li class="myButton-${config.remote_template}" id="channeldown"><a href="#" title="channel down"><span>channeldown</span></a></li>
+					<li class="myButton-${config.remote_template}" id="volplus"><a href="#" title="vol plus"><span>volplus</span></a></li>
+					<li class="myButton-${config.remote_template}" id="volmin"><a href="#" title="vol min"><span>volmin</span></a></li>
+					<li class="myButton-${config.remote_template}" id="back"><a href="#" title="back"><span>back</span></a></li>
+					<li class="myButton-${config.remote_template}" id="menu"><a href="#" title="menu"><span>menu</span></a></li>
+					<li class="myButton-${config.remote_template}" id="left"><a href="#" title="Left"><span>left</span></a></li>
+					<li class="myButton-${config.remote_template}" id="right"><a href="#" title="right"><span>right</span></a></li>
+					<li class="myButton-${config.remote_template}" id="up"><a href="#" title="up"><span>up</span></a></li>
+					<li class="myButton-${config.remote_template}" id="down"><a href="#" title="down"><span>down</span></a></li>
+					<li class="myButton-${config.remote_template}" id="ok"><a href="#" title="OK"><span>OK</span></a></li>
 				</ul>
 			</div>	
 		</div>

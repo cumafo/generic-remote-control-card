@@ -99,7 +99,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#four a {
 	left: 35px;
-	top: 156px;
+	top: 158px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/four.png) no-repeat 0 0px
@@ -107,7 +107,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#five a {
 	left: 77px;
-	top: 156px;
+	top: 157px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/five.png) no-repeat 0 0px
@@ -115,7 +115,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#six a {
 	left: 123px;
-	top: 156x;
+	top: 157px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/six.png) no-repeat 0 0px
@@ -124,7 +124,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#seven a {
 	left: 35px;
-	top: 183px;
+	top: 185px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/seven.png) no-repeat 0 0px
@@ -132,7 +132,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#eight a {
 	left: 77px;
-	top: 183px;
+	top: 185px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/eight.png) no-repeat 0 0px
@@ -140,7 +140,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#nine a {
 	left: 122px;
-	top: 183px;
+	top: 185px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/nine.png) no-repeat 0 0px
@@ -149,81 +149,82 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#zero a {
 	left: 77px;
-	top: 212px;
+	top: 213px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/zero.png) no-repeat 0 0px
 }
 
 #remote-control-z10promax li#volplus a {
-	left: 156px;
-	top: 300px;
+	left: 26px;
+	top: 305px;
 	width: 15px;
-	height: 25px;
+	height: 14px;
 	background: url(${base_url}/volplus.png) no-repeat 0 0px
 }
 
 #remote-control-z10promax li#volmin a {
-	left: 18px;
-	top: 335px;
+	left: 26px;
+	top: 353px;
 	width: 15px;
-	height: 25px;
+	height: 14px;
 	background: url(${base_url}/volmin.png) no-repeat 0 0px
 }
 
-#remote-control-z10promax li#left a {
-	left: 39px;
-	top: 322px;
-	width: 22px;
-	height: 16px;
-	background: url(${base_url}/left.png) no-repeat 0px 0px
-}
-
-#remote-control-z10promax li#right a {
-	left: 100px;
-	top: 322px;
-	width: 22px;
-	height: 16px;
-	background: url(${base_url}/right.png) no-repeat 0px 0px
-}
-
-#remote-control-z10promax li#up a {
-	left: 74px;
-	top: 289px;
-	width: 22px;
-	height: 16px;
-	background: url(${base_url}/up.png) no-repeat 0px 0px
-}
-
-#remote-control-z10promax li#down a {
-	left: 74px;
-	top: 350px;
-	width: 22px;
-	height: 16px;
-	background: url(${base_url}/down.png) no-repeat 0px 0px
-}
-
 #remote-control-z10promax li#channelup a {
-	left: 117px;
-	top: 289px;
-	width: 22px;
-	height: 16px;
+	left: 106px;
+	top: 353px;
+	width: 15px;
+	height: 14px;
 	background: url(${base_url}/channelup.png) no-repeat 0px 0px
 }
 
 #remote-control-z10promax li#channeldown a {
-	left: 117px;
-	top: 350px;
-	width: 22px;
-	height: 16px;
+	left: 106px;
+	top: 353px;
+	width: 15px;
+	height: 14px;
 	background: url(${base_url}/channeldown.png) no-repeat 0px 0px
 }
 
+
+#remote-control-z10promax li#left a {
+	left: 36px;
+	top: 316px;
+	width: 15px;
+	height: 14px;
+	background: url(${base_url}/left.png) no-repeat 0px 0px
+}
+
+#remote-control-z10promax li#right a {
+	left: 104px;
+	top: 316px;
+	width: 15px;
+	height: 14px;
+	background: url(${base_url}/right.png) no-repeat 0px 0px
+}
+
+#remote-control-z10promax li#up a {
+	left: 79px;
+	top: 289px;
+	width: 15px;
+	height: 1r4x;
+	background: url(${base_url}/up.png) no-repeat 0px 0px
+}
+
+#remote-control-z10promax li#down a {
+	left: 79px;
+	top: 347px;
+	width: 15px;
+	height: 14px;
+	background: url(${base_url}/down.png) no-repeat 0px 0px
+}
+
 #remote-control-z10promax li#ok a {
-	left: 69px;
+	left: 78px;
 	top: 320px;
-	width: 24px;
-	height: 24px;
+	width:154px;
+	height: 14px;
 	background: url(${base_url}/ok.png) no-repeat 0px 0px
 }
 

@@ -1,6 +1,6 @@
 function getRemoteStyle_z10promax(config) {
    
-   const template = template;
+   const template = config.remote_template;
    const base_url = `/hacsfiles/generic-remote-control-card/remotes/${template}`;
   return `
   ha-card {

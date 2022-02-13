@@ -124,7 +124,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#seven a {
 	left: 35px;
-	top: 185px;
+	top: 186px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/seven.png) no-repeat 0 0px
@@ -156,7 +156,7 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#volplus a {
-	left: 26px;
+	left: 20px;
 	top: 305px;
 	width: 15px;
 	height: 14px;
@@ -164,8 +164,8 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#volmin a {
-	left: 26px;
-	top: 353px;
+	left: 20px;
+	top: 355px;
 	width: 15px;
 	height: 14px;
 	background: url(${base_url}/volmin.png) no-repeat 0 0px
@@ -221,16 +221,16 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#ok a {
-	left: 78px;
+	left: 72px;
 	top: 320px;
-	width:154px;
+	width:15px;
 	height: 14px;
 	background: url(${base_url}/ok.png) no-repeat 0px 0px
 }
 
 #remote-control-z10promax li#back a {
 	left: 18px;
-	top: 377px;
+	top: 383px;
     width: 38px;
     height: 27px;
     background: url(${base_url}/back.png) no-repeat 0px 0px;

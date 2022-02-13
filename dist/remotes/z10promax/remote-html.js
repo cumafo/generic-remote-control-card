@@ -156,7 +156,7 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#volplus a {
-	left: 20px;
+	left: 17px;
 	top: 305px;
 	width: 15px;
 	height: 14px;
@@ -164,8 +164,8 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#volmin a {
-	left: 20px;
-	top: 355px;
+	left: 17px;
+	top: 357px;
 	width: 15px;
 	height: 14px;
 	background: url(${base_url}/volmin.png) no-repeat 0 0px
@@ -190,7 +190,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#left a {
 	left: 36px;
-	top: 316px;
+	top: 323px;
 	width: 15px;
 	height: 14px;
 	background: url(${base_url}/left.png) no-repeat 0px 0px
@@ -198,7 +198,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#right a {
 	left: 104px;
-	top: 316px;
+	top: 323px;
 	width: 15px;
 	height: 14px;
 	background: url(${base_url}/right.png) no-repeat 0px 0px
@@ -208,13 +208,13 @@ function getRemoteStyle_z10promax(config) {
 	left: 79px;
 	top: 289px;
 	width: 15px;
-	height: 1r4x;
+	height: 14px;
 	background: url(${base_url}/up.png) no-repeat 0px 0px
 }
 
 #remote-control-z10promax li#down a {
 	left: 79px;
-	top: 347px;
+	top: 360px;
 	width: 15px;
 	height: 14px;
 	background: url(${base_url}/down.png) no-repeat 0px 0px
@@ -222,34 +222,34 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#ok a {
 	left: 72px;
-	top: 320px;
-	width:15px;
-	height: 14px;
+	top: 316px;
+	width:17px;
+	height:18px;
 	background: url(${base_url}/ok.png) no-repeat 0px 0px
 }
 
 #remote-control-z10promax li#back a {
 	left: 18px;
-	top: 383px;
+	top: 386px;
     width: 38px;
     height: 27px;
     background: url(${base_url}/back.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#home a {
-	left: 57px;
-	top: 377px;
+	left: 77px;
+	top: 380px;
 	width: 38px;
 	height: 27px;
 	background: url(${base_url}/menu.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#menu a {
-	left: 110px;
-	top: 377px;
+	left: 116px;
+	top: 37r4x;
 	width: 38px;
 	height: 27px;
-	background: url(${base_url}/menu.png) no-repeat 0px 0px;
+backgro:w': url(${base_url}/menu.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#power a:hover {

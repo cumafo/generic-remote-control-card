@@ -170,49 +170,59 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#red a {
-	left: 16px;
-	top: 245px;
-	width: 25px;
-	height: 19px;
-	background: url(${base_url}/red.png) no-repeat 0px 0px;
+	left: 17px;
+	top: 247px;
+	width: 32px;
+	height: 30px;
+	background: url(${base_url}/red.png) no-repeat
 }
 
 #remote-control-z10promax li#red a:hover {
-	background-image: url(${base_url}/red.png) no-repeat 0px -30px;
+	background-image: url(${base_url}/red.png);
+	background-repeat: no-repeat;
+	background-position: 0 -30px
 }  
 
 #remote-control-z10promax li#green a {
-	left: 49px;
-	top: 246px;
+	left: 87px;
+	top: 623px;
 	width: 32px;
 	height: 30px;
-	background: url(${base_url}/green.png) no-repeat 0px 0px;
+	background: url(${base_url}/green.png) no-repeat
 }
+
 #remote-control-z10promax li#green a:hover {
-	background-image: url(${base_url}/green.png) no-repeat 0px -30px;
+	background-image: url(${base_url}/green.png);
+	background-repeat: no-repeat;
+	background-position: 0 -30px
 }  
-
 #remote-control-z10promax li#yellow a {
-	left: 83px;
-	top: 246px;
+	left: 131px;
+	top: 623px;
 	width: 32px;
 	height: 30px;
-	background: url(${base_url}/yellow.png) no-repeat 0px 0px;
+	background: url(${base_url}/yellow.png) no-repeat
 }
+
 #remote-control-z10promax li#yellow a:hover {
-	background-image: url(${base_url}/yellow.png) no-repeat 0px -30px;
+	background-image: url(${base_url}/yellow.png);
+	background-repeat: no-repeat;
+	background-position: 0 -30px
+}  
+#remote-control-z10promax li#blue a {
+	left: 172px;
+	top: 633px;
+	width: 32px;
+	height: 30px;
+	background: url(${base_url}/blue.png) no-repeat
+}
+
+#remote-control-z10promax li#blue a:hover {
+	background-image: url(${base_url}/blue.png);
+	background-repeat: no-repeat;
+	background-position: 0 -30px
 }  
 
-#remote-control-z10promax li#blue a {
-	left: 117px;
-	top: 246px;
-	width: 32px;
-	height: 30px;
-	background: url(${base_url}/blue.png) no-repeat 0px 0px;
-}
-#remote-control-z10promax li#blue a:hover {
-	background-image: url(${base_url}/blue.png) no-repeat 0px -30px;
-}  
 
 #remote-control-z10promax li#info a {
 	left: 28px;

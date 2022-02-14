@@ -48,6 +48,7 @@ function getRemoteStyle_z10promax(config) {
 #seven a,
 #eight a,
 #nine a,
+#favo a,
 #zero a,
 #volmin a,
 #volplus a,
@@ -150,6 +151,13 @@ function getRemoteStyle_z10promax(config) {
 	background: url(${base_url}/nine.png) no-repeat 0 0px
 }
 
+#remote-control-z10promax li#favo a {
+	left: 35px;
+	top: 186px;
+	width: 28px;
+	height: 9px;
+	background: url(${base_url}/favo.png) no-repeat 0 0px
+}
 
 #remote-control-z10promax li#zero a {
 	left: 77px;
@@ -177,7 +185,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#channelup a {
 	left: 130px;
-	top: 311px;
+	top: 308px;
 	width: 15px;
 	height: 14px;
 	background: url(${base_url}/channelup.png) no-repeat 0px 0px
@@ -185,7 +193,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#channeldown a {
 	left: 130px;
-	top: 350px;
+	top: 353px;
 	width: 15px;
 	height: 14px;
 	background: url(${base_url}/channeldown.png) no-repeat 0px 0px
@@ -209,7 +217,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#top a {
 	left: 68px;
-	top: 308px;
+	top: 305px;
 	width: 22px;
 	height: 13px;
 	background: url(${base_url}/top.png) no-repeat 0px 0px
@@ -217,7 +225,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#bottom a {
 	left: 68px;
-	top: 338px;
+	top: 368px;
 	width: 22px;
 	height: 13px;
 	background: url(${base_url}/bottom.png) no-repeat 0px 0px
@@ -240,8 +248,8 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#home a {
-	left: 65px;
-	top: 382px;
+	left: 68px;
+	top: 386px;
 	width: 16px;
 	height: 16px;
 	background: url(${base_url}/home.png) no-repeat 0px 0px;
@@ -275,10 +283,10 @@ function getRemoteStyle_z10promax(config) {
 	height: 30px;
 	background: url(${base_url}/green.png) no-repeat 0px 0px;
 }
-
 #remote-control-yesremote li#green a:hover {
 	background-image: url(${base_url}/green.png) no-repeat 0px -30px;
 }  
+
 #remote-control-yesremote li#yellow a {
 	left: 83px;
 	top: 246px;
@@ -286,10 +294,10 @@ function getRemoteStyle_z10promax(config) {
 	height: 30px;
 	background: url(${base_url}/yellow.png) no-repeat 0px 0px;
 }
-
 #remote-control-yesremote li#yellow a:hover {
 	background-image: url(${base_url}/yellow.png) no-repeat 0px -30px;
 }  
+
 #remote-control-yesremote li#blue a {
 	left: 117px;
 	top: 246px;
@@ -297,7 +305,6 @@ function getRemoteStyle_z10promax(config) {
 	height: 30px;
 	background: url(${base_url}/blue.png) no-repeat 0px 0px;
 }
-
 #remote-control-yesremote li#blue a:hover {
 	background-image: url(${base_url}/blue.png) no-repeat 0px -30px;
 }  
@@ -420,6 +427,7 @@ function getRemoteHtml_z10promax(config){return `
 					<li class="myButton-${config.remote_template}" id="seven"><a href="#" title="seven"><span>seven</span></a></li>
 					<li class="myButton-${config.remote_template}" id="eight"><a href="#" title="eight"><span>eight</span></a></li>
 					<li class="myButton-${config.remote_template}" id="nine"><a href="#" title="nine"><span>nine</span></a></li>
+					<li class="myButton-${config.remote_template}" id="favo"><a href="#" title="favo"><span>favo</span></a></li>
 					<li class="myButton-${config.remote_template}" id="zero"><a href="#" title="zero"><span>zero</span></a></li>
 
 					<li class="myButton-${config.remote_template}" id="orange"><a href="#" title="orange"><span>orange</span></a></li>

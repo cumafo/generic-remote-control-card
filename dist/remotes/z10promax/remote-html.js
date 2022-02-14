@@ -169,7 +169,7 @@ function getRemoteStyle_z10promax(config) {
 	background: url(${base_url}/zero.png) no-repeat 0 0px
 }
 
-#remote-control-yesremote li#red a {
+#remote-control-z10promax li#red a {
 	left: 13px;
 	top: 246px;
 	width: 25px;
@@ -177,40 +177,40 @@ function getRemoteStyle_z10promax(config) {
 	background: url(${base_url}/red.png) no-repeat 0px 0px;
 }
 
-#remote-control-yesremote li#red a:hover {
+#remote-control-z10promax li#red a:hover {
 	background-image: url(${base_url}/red.png) no-repeat 0px -30px;
 }  
 
-#remote-control-yesremote li#green a {
+#remote-control-z10promax li#green a {
 	left: 49px;
 	top: 246px;
 	width: 32px;
 	height: 30px;
 	background: url(${base_url}/green.png) no-repeat 0px 0px;
 }
-#remote-control-yesremote li#green a:hover {
+#remote-control-z10promax li#green a:hover {
 	background-image: url(${base_url}/green.png) no-repeat 0px -30px;
 }  
 
-#remote-control-yesremote li#yellow a {
+#remote-control-z10promax li#yellow a {
 	left: 83px;
 	top: 246px;
 	width: 32px;
 	height: 30px;
 	background: url(${base_url}/yellow.png) no-repeat 0px 0px;
 }
-#remote-control-yesremote li#yellow a:hover {
+#remote-control-z10promax li#yellow a:hover {
 	background-image: url(${base_url}/yellow.png) no-repeat 0px -30px;
 }  
 
-#remote-control-yesremote li#blue a {
+#remote-control-z10promax li#blue a {
 	left: 117px;
 	top: 246px;
 	width: 32px;
 	height: 30px;
 	background: url(${base_url}/blue.png) no-repeat 0px 0px;
 }
-#remote-control-yesremote li#blue a:hover {
+#remote-control-z10promax li#blue a:hover {
 	background-image: url(${base_url}/blue.png) no-repeat 0px -30px;
 }  
 

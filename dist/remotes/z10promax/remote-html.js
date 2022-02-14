@@ -50,7 +50,7 @@ function getRemoteStyle_z10promax(config) {
 #nine a,
 #favo a,
 #zero a,
-#orange a,
+#red a,
 #green a,
 #yellow a,
 #blue a,
@@ -169,16 +169,16 @@ function getRemoteStyle_z10promax(config) {
 	background: url(${base_url}/zero.png) no-repeat 0 0px
 }
 
-#remote-control-yesremote li#orange a {
+#remote-control-yesremote li#red a {
 	left: 13px;
 	top: 246px;
-	width: 32px;
-	height: 30px;
-	background: url(${base_url}/orange.png) no-repeat 0px 0px;
+	width: 25px;
+	height: 19px;
+	background: url(${base_url}/red.png) no-repeat 0px 0px;
 }
 
-#remote-control-yesremote li#orange a:hover {
-	background-image: url(${base_url}/orange.png) no-repeat 0px -30px;
+#remote-control-yesremote li#red a:hover {
+	background-image: url(${base_url}/red.png) no-repeat 0px -30px;
 }  
 
 #remote-control-yesremote li#green a {
@@ -443,7 +443,7 @@ function getRemoteHtml_z10promax(config){return `
 					<li class="myButton-${config.remote_template}" id="favo"><a href="#" title="favo"><span>favo</span></a></li>
 					<li class="myButton-${config.remote_template}" id="zero"><a href="#" title="zero"><span>zero</span></a></li>
 
-					<li class="myButton-${config.remote_template}" id="orange"><a href="#" title="orange"><span>orange</span></a></li>
+					<li class="myButton-${config.remote_template}" id="red"><a href="#" title="red"><span>red</span></a></li>
 					<li class="myButton-${config.remote_template}" id="green"><a href="#" title="green"><span>green</span></a></li>
 					<li class="myButton-${config.remote_template}" id="yellow"><a href="#" title="yellow"><span>yellow</span></a></li>
 					<li class="myButton-${config.remote_template}" id="blue"><a href="#" title="blue"><span>blue</span></a></li>

@@ -60,6 +60,10 @@ function getRemoteStyle_z10promax(config) {
 #back a,
 #home a,
 #menu a,
+#orange a,
+#green a,
+#yellow a,
+#blue a,
 #ok a {
 	position: absolute;
 	display: block
@@ -68,8 +72,8 @@ function getRemoteStyle_z10promax(config) {
 #remote-control-z10promax li#power a {
 	left: 105px;
 	top: 42px;
-	width: 24px;
-	height: 24px;
+	width: 30px;
+	height: 32px;
 	background: url(${base_url}/power.png) no-repeat
 }
 
@@ -188,8 +192,8 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#left a {
-	left: 37px;
-	top: 325px;
+	left: 38px;
+	top: 327px;
 	width: 13px;
 	height: 22px;
 	background: url(${base_url}/left.png) no-repeat 0px 0px
@@ -197,7 +201,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#right a {
 	left: 106px;
-	top: 325px;
+	top: 327px;
 	width: 13px;
 	height: 22px;
 	background: url(${base_url}/right.png) no-repeat 0px 0px
@@ -205,7 +209,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#top a {
 	left: 68px;
-	top: 285px;
+	top: 308px;
 	width: 22px;
 	height: 13px;
 	background: url(${base_url}/top.png) no-repeat 0px 0px
@@ -213,7 +217,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#botom a {
 	left: 68px;
-	top: 335px;
+	top: 338px;
 	width: 22px;
 	height: 13px;
 	background: url(${base_url}/botom.png) no-repeat 0px 0px
@@ -236,20 +240,75 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#home a {
-	left: 69px;
+	left: 65px;
 	top: 382px;
 	width: 16px;
 	height: 16px;
-	background: url(${base_url}/menu.png) no-repeat 0px 0px;
+	background: url(${base_url}/home.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#menu a {
-	left: 110px;
-	top: 390x;
+	left: 113px;
+	top: 382x;
 	width: 30px;
 	height: 12px;
     background: url(${base_url}/menu.png) no-repeat 0px 0px;
 }
+
+
+#remote-control-yesremote li#orange a {
+	left: 13px;
+	top: 246px;
+	width: 32px;
+	height: 30px;
+	background: url(${base_url}/orange.png) no-repeat
+}
+
+#remote-control-yesremote li#orange a:hover {
+	background-image: url(${base_url}/orange.png);
+	background-repeat: no-repeat;
+	background-position: 0 -30px
+}  
+
+#remote-control-yesremote li#green a {
+	left: 49px;
+	top: 246px;
+	width: 32px;
+	height: 30px;
+	background: url(${base_url}/green.png) no-repeat
+}
+
+#remote-control-yesremote li#green a:hover {
+	background-image: url(${base_url}/green.png);
+	background-repeat: no-repeat;
+	background-position: 0 -30px
+}  
+#remote-control-yesremote li#yellow a {
+	left: 83px;
+	top: 246px;
+	width: 32px;
+	height: 30px;
+	background: url(${base_url}/yellow.png) no-repeat
+}
+
+#remote-control-yesremote li#yellow a:hover {
+	background-image: url(${base_url}/yellow.png);
+	background-repeat: no-repeat;
+	background-position: 0 -30px
+}  
+#remote-control-yesremote li#blue a {
+	left: 117px;
+	top: 246px;
+	width: 32px;
+	height: 30px;
+	background: url(${base_url}/blue.png) no-repeat
+}
+
+#remote-control-yesremote li#blue a:hover {
+	background-image: url(${base_url}/blue.png);
+	background-repeat: no-repeat;
+	background-position: 0 -30px
+}  
 
 #remote-control-z10promax li#power a:hover {
 	background: url(${base_url}/power_over.png) no-repeat 0px 0px
@@ -370,6 +429,12 @@ function getRemoteHtml_z10promax(config){return `
 					<li class="myButton-${config.remote_template}" id="eight"><a href="#" title="eight"><span>eight</span></a></li>
 					<li class="myButton-${config.remote_template}" id="nine"><a href="#" title="nine"><span>nine</span></a></li>
 					<li class="myButton-${config.remote_template}" id="zero"><a href="#" title="zero"><span>zero</span></a></li>
+
+					<li class="myButton-${config.remote_template}" id="orange"><a href="#" title="orange"><span>orange</span></a></li>
+					<li class="myButton-${config.remote_template}" id="green"><a href="#" title="green"><span>green</span></a></li>
+					<li class="myButton-${config.remote_template}" id="yellow"><a href="#" title="yellow"><span>yellow</span></a></li>
+					<li class="myButton-${config.remote_template}" id="blue"><a href="#" title="blue"><span>blue</span></a></li>
+
 					<li class="myButton-${config.remote_template}" id="channelup"><a href="#" title="channel up"><span>channelup</span></a></li>
 					<li class="myButton-${config.remote_template}" id="channeldown"><a href="#" title="channel down"><span>channeldown</span></a></li>
 					<li class="myButton-${config.remote_template}" id="volplus"><a href="#" title="vol plus"><span>volplus</span></a></li>

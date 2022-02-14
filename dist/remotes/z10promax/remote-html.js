@@ -170,8 +170,8 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#red a {
-	left: 14px;
-	top: 246px;
+	left: 16px;
+	top: 245px;
 	width: 25px;
 	height: 19px;
 	background: url(${base_url}/red.png) no-repeat 0px 0px;

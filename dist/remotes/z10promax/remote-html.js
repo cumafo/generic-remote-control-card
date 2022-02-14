@@ -169,18 +169,6 @@ function getRemoteStyle_z10promax(config) {
 	background: url(${base_url}/zero.png) no-repeat 0 0px
 }
 
-#remote-control-z10promax li#red a {
-	left: 16px;
-	top: 245px;
-	width: 25px;
-	height: 19px;
-	background: url(${base_url}/red.png) no-repeat 0px 0px;
-}
-
-#remote-control-z10promax li#red a:hover {
-	background-image: url(${base_url}/red.png) no-repeat 0px -30px;
-}  
-
 #remote-control-z10promax li#green a {
 	left: 49px;
 	top: 246px;

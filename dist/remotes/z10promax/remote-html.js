@@ -50,6 +50,12 @@ function getRemoteStyle_z10promax(config) {
 #nine a,
 #favo a,
 #zero a,
+#orange a,
+#green a,
+#yellow a,
+#blue a,
+#info a,
+#guide a,
 #volmin a,
 #volplus a,
 #channelup a,
@@ -61,10 +67,6 @@ function getRemoteStyle_z10promax(config) {
 #back a,
 #home a,
 #menu a,
-#orange a,
-#green a,
-#yellow a,
-#blue a,
 #ok a {
 	position: absolute;
 	display: block
@@ -80,7 +82,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#one a {
 	left: 35px;
-	top: 131px;
+	top: 132px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/one.png) no-repeat 0 0px
@@ -88,7 +90,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#two a {
 	left: 77px;
-	top: 130px;
+	top: 131px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/two.png) no-repeat 0 0px
@@ -96,7 +98,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#three a {
 	left: 121px;
-	top: 131px;
+	top: 132px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/three.png) no-repeat 0 0px
@@ -104,7 +106,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#four a {
 	left: 35px;
-	top: 158px;
+	top: 159px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/four.png) no-repeat 0 0px
@@ -112,7 +114,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#five a {
 	left: 77px;
-	top: 157px;
+	top: 158px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/five.png) no-repeat 0 0px
@@ -120,7 +122,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#six a {
 	left: 123px;
-	top: 157px;
+	top: 158px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/six.png) no-repeat 0 0px
@@ -129,7 +131,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#seven a {
 	left: 35px;
-	top: 186px;
+	top: 187px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/seven.png) no-repeat 0 0px
@@ -137,7 +139,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#eight a {
 	left: 77px;
-	top: 185px;
+	top: 186px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/eight.png) no-repeat 0 0px
@@ -145,17 +147,17 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#nine a {
 	left: 122px;
-	top: 185px;
+	top: 186px;
 	width: 9px;
 	height: 19px;
 	background: url(${base_url}/nine.png) no-repeat 0 0px
 }
 
 #remote-control-z10promax li#favo a {
-	left: 35px;
-	top: 186px;
+	left: 20px;
+	top: 213x;
 	width: 28px;
-	height: 9px;
+	height: 10px;
 	background: url(${base_url}/favo.png) no-repeat 0 0px
 }
 
@@ -166,103 +168,6 @@ function getRemoteStyle_z10promax(config) {
 	height: 19px;
 	background: url(${base_url}/zero.png) no-repeat 0 0px
 }
-
-#remote-control-z10promax li#volplus a {
-	left: 16px;
-	top: 307px;
-	width: 15px;
-	height: 14px;
-	background: url(${base_url}/volplus.png) no-repeat 0 0px
-}
-
-#remote-control-z10promax li#volmin a {
-	left: 16px;
-	top: 359px;
-	width: 15px;
-	height: 14px;
-	background: url(${base_url}/volmin.png) no-repeat 0 0px
-}
-
-#remote-control-z10promax li#channelup a {
-	left: 130px;
-	top: 308px;
-	width: 15px;
-	height: 14px;
-	background: url(${base_url}/channelup.png) no-repeat 0px 0px
-}
-
-#remote-control-z10promax li#channeldown a {
-	left: 130px;
-	top: 353px;
-	width: 15px;
-	height: 14px;
-	background: url(${base_url}/channeldown.png) no-repeat 0px 0px
-}
-
-#remote-control-z10promax li#left a {
-	left: 38px;
-	top: 327px;
-	width: 13px;
-	height: 22px;
-	background: url(${base_url}/left.png) no-repeat 0px 0px
-}
-
-#remote-control-z10promax li#right a {
-	left: 106px;
-	top: 327px;
-	width: 13px;
-	height: 22px;
-	background: url(${base_url}/right.png) no-repeat 0px 0px
-}
-
-#remote-control-z10promax li#top a {
-	left: 68px;
-	top: 305px;
-	width: 22px;
-	height: 13px;
-	background: url(${base_url}/top.png) no-repeat 0px 0px
-}
-
-#remote-control-z10promax li#bottom a {
-	left: 68px;
-	top: 368px;
-	width: 22px;
-	height: 13px;
-	background: url(${base_url}/bottom.png) no-repeat 0px 0px
-}
-
-#remote-control-z10promax li#ok a {
-	left: 68px;
-	top: 327px;
-	width:23px;
-	height:24px;
-	background: url(${base_url}/ok.png) no-repeat 0px 0px
-}
-
-#remote-control-z10promax li#back a {
-	left: 18px;
-	top: 388px;
-    width: 38px;
-    height: 27px;
-    background: url(${base_url}/back.png) no-repeat 0px 0px;
-}
-
-#remote-control-z10promax li#home a {
-	left: 68px;
-	top: 386px;
-	width: 16px;
-	height: 16px;
-	background: url(${base_url}/home.png) no-repeat 0px 0px;
-}
-
-#remote-control-z10promax li#menu a {
-	left: 113px;
-	top: 382x;
-	width: 30px;
-	height: 12px;
-    background: url(${base_url}/menu.png) no-repeat 0px 0px;
-}
-
 
 #remote-control-yesremote li#orange a {
 	left: 13px;
@@ -308,6 +213,118 @@ function getRemoteStyle_z10promax(config) {
 #remote-control-yesremote li#blue a:hover {
 	background-image: url(${base_url}/blue.png) no-repeat 0px -30px;
 }  
+
+#remote-control-z10promax li#info a {
+	left: 20px;
+	top: 282px;
+	width: 20px;
+	height: 10px;
+	background: url(${base_url}/info.png) no-repeat 0px 0px;
+}
+
+#remote-control-z10promax li#guide a {
+	left: 97px;
+	top: 282px;
+	width: 20px;
+	height: 10px;
+	background: url(${base_url}/guide.png) no-repeat 0px 0px;
+}
+
+#remote-control-z10promax li#volplus a {
+	left: 16px;
+	top: 307px;
+	width: 15px;
+	height: 14px;
+	background: url(${base_url}/volplus.png) no-repeat 0px 0px
+}
+
+#remote-control-z10promax li#volmin a {
+	left: 16px;
+	top: 359px;
+	width: 15px;
+	height: 14px;
+	background: url(${base_url}/volmin.png) no-repeat 0 0px
+}
+
+#remote-control-z10promax li#channelup a {
+	left: 130px;
+	top: 308px;
+	width: 15px;
+	height: 14px;
+	background: url(${base_url}/channelup.png) no-repeat 0px 0px
+}
+
+#remote-control-z10promax li#channeldown a {
+	left: 130px;
+	top: 353px;
+	width: 15px;
+	height: 14px;
+	background: url(${base_url}/channeldown.png) no-repeat 0px 0px
+}
+
+#remote-control-z10promax li#left a {
+	left: 38px;
+	top: 327px;
+	width: 13px;
+	height: 22px;
+	background: url(${base_url}/left.png) no-repeat 0px 0px
+}
+
+#remote-control-z10promax li#right a {
+	left: 106px;
+	top: 327px;
+	width: 13px;
+	height: 22px;
+	background: url(${base_url}/right.png) no-repeat 0px 0px;
+}
+
+#remote-control-z10promax li#top a {
+	left: 68px;
+	top: 303px;
+	width: 22px;
+	height: 13px;
+	background: url(${base_url}/top.png) no-repeat 0px 0px;
+}
+
+#remote-control-z10promax li#bottom a {
+	left: 68px;
+	top: 365px;
+	width: 22px;
+	height: 13px;
+	background: url(${base_url}/bottom.png) no-repeat 0px 0px;
+}
+
+#remote-control-z10promax li#ok a {
+	left: 68px;
+	top: 327px;
+	width:23px;
+	height:24px;
+	background: url(${base_url}/ok.png) no-repeat 0px 0px;
+}
+
+#remote-control-z10promax li#back a {
+	left: 18px;
+	top: 388px;
+    width: 38px;
+    height: 27px;
+    background: url(${base_url}/back.png) no-repeat 0px 0px;
+}
+
+#remote-control-z10promax li#home a {
+	left: 68px;
+	top: 389px;
+	width: 16px;
+	height: 16px;
+	background: url(${base_url}/home.png) no-repeat 0px 0px;
+}
+
+#remote-control-z10promax li#menu a {
+	left: 113px;
+	top: 382x;
+	width: 30px;
+	height: 12px;
+    background: url(${base_url}/menu.png) no-repeat 0px 0px;
+}
 
 #remote-control-z10promax li#power a:hover {
 	background: url(${base_url}/power_over.png) no-repeat 0px 0px;
@@ -374,7 +391,7 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#bottom a:hover {
-	background: url(${base_url}/bottom.png) no-repeat 0px 0px;
+	background: url(${base_url}/bottom_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#channelup a:hover {
@@ -434,6 +451,9 @@ function getRemoteHtml_z10promax(config){return `
 					<li class="myButton-${config.remote_template}" id="green"><a href="#" title="green"><span>green</span></a></li>
 					<li class="myButton-${config.remote_template}" id="yellow"><a href="#" title="yellow"><span>yellow</span></a></li>
 					<li class="myButton-${config.remote_template}" id="blue"><a href="#" title="blue"><span>blue</span></a></li>
+
+					<li class="myButton-${config.remote_template}" id="info"><a href="#" title="info"><span>info</span></a></li>
+					<li class="myButton-${config.remote_template}" id="guide"><a href="#" title="guide"><span>guide</span></a></li>
 
 					<li class="myButton-${config.remote_template}" id="channelup"><a href="#" title="channel up"><span>channelup</span></a></li>
 					<li class="myButton-${config.remote_template}" id="channeldown"><a href="#" title="channel down"><span>channeldown</span></a></li>

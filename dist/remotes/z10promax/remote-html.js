@@ -303,8 +303,8 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#back a {
-	left: 19px;
-	top: 388px;
+	left: 20px;
+	top: 389px;
     width: 38px;
     height: 27px;
     background: url(${base_url}/back.png) no-repeat 0px 0px;

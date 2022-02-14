@@ -155,7 +155,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#favo a {
 	left: 20px;
-	top: 213px;
+	top: 217px;
 	width: 28px;
 	height: 10px;
 	background: url(${base_url}/favo.png) no-repeat 0 0px
@@ -215,7 +215,7 @@ function getRemoteStyle_z10promax(config) {
 }  
 
 #remote-control-z10promax li#info a {
-	left: 25px;
+	left: 28px;
 	top: 282px;
 	width: 20px;
 	height: 10px;
@@ -223,9 +223,9 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#guide a {
-	left: 100px;
+	left: 102px;
 	top: 282px;
-	width: 27px;
+	width: 32px;
 	height: 10px;
 	background: url(${base_url}/guide.png) no-repeat 0px 0px;
 }
@@ -311,16 +311,16 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#home a {
-	left: 68px;
-	top: 392px;
+	left: 70px;
+	top: 394px;
 	width: 16px;
 	height: 16px;
 	background: url(${base_url}/home.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#menu a {
-	left: 113px;
-	top: 382px;
+	left: 115px;
+	top: 387px;
 	width: 30px;
 	height: 12px;
     background: url(${base_url}/menu.png) no-repeat 0px 0px;

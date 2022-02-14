@@ -55,8 +55,8 @@ function getRemoteStyle_z10promax(config) {
 #channeldown a,
 #left a,
 #right a,
-#up a,
-#down a,
+#top a,
+#botom a,
 #back a,
 #home a,
 #menu a,
@@ -204,20 +204,20 @@ function getRemoteStyle_z10promax(config) {
 	background: url(${base_url}/right.png) no-repeat 0px 0px
 }
 
-#remote-control-z10promax li#up a {
+#remote-control-z10promax li#top a {
 	left: 79px;
 	top: 289px;
 	width: 15px;
 	height: 14px;
-	background: url(${base_url}/up.png) no-repeat 0px 0px
+	background: url(${base_url}/top.png) no-repeat 0px 0px
 }
 
-#remote-control-z10promax li#down a {
+#remote-control-z10promax li#botom a {
 	left: 79px;
 	top: 360px;
 	width: 15px;
 	height: 14px;
-	background: url(${base_url}/down.png) no-repeat 0px 0px
+	background: url(${base_url}/botom.png) no-repeat 0px 0px
 }
 
 #remote-control-z10promax li#ok a {
@@ -312,12 +312,12 @@ backgro:w': url(${base_url}/menu.png) no-repeat 0px 0px;
 	background: url(${base_url}/right_over.png) no-repeat 0px 0px
 }
 
-#remote-control-z10promax li#up a:hover {
-	background: url(${base_url}/up_over.png) no-repeat 0px 0px
+#remote-control-z10promax li#top a:hover {
+	background: url(${base_url}/top_over.png) no-repeat 0px 0px
 }
 
-#remote-control-z10promax li#down a:hover {
-	background: url(${base_url}/down_over.png) no-repeat 0px 0px
+#remote-control-z10promax li#botom a:hover {
+	background: url(${base_url}/botom_over.png) no-repeat 0px 0px
 }
 
 #remote-control-z10promax li#channelup a:hover {
@@ -379,8 +379,8 @@ function getRemoteHtml_z10promax(config){return `
 					<li class="myButton-${config.remote_template}" id="menu"><a href="#" title="menu"><span>menu</span></a></li>
 					<li class="myButton-${config.remote_template}" id="left"><a href="#" title="Left"><span>left</span></a></li>
 					<li class="myButton-${config.remote_template}" id="right"><a href="#" title="right"><span>right</span></a></li>
-					<li class="myButton-${config.remote_template}" id="up"><a href="#" title="up"><span>up</span></a></li>
-					<li class="myButton-${config.remote_template}" id="down"><a href="#" title="down"><span>down</span></a></li>
+					<li class="myButton-${config.remote_template}" id="top"><a href="#" title="top"><span>top</span></a></li>
+					<li class="myButton-${config.remote_template}" id="botom"><a href="#" title="botom"><span>botom</span></a></li>
 					<li class="myButton-${config.remote_template}" id="ok"><a href="#" title="OK"><span>OK</span></a></li>
 				</ul>
 			</div>	

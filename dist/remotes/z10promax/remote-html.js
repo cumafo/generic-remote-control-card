@@ -518,19 +518,14 @@ function getRemoteHtml_z10promax(config){return `
 			<h1>${config.name}</h1>
 			</div>
 			<div id="remote-control-${config.remote_template}">
-				<h2>
-					Main navigation
-				</h2>
 				<ul>
-					<li id="stb" class="myButton-${config.remote_template}"><a href="#" title="stb"><span>stb</span></a></li>
-					<li id="tv" class="myButton-${config.remote_template}"><a href="#" title="tv"><span>tv</span></a></li>
-					<li id="tv-ok" class="myButton-${config.remote_template}"><a href="#" title="tv-ok"><span>tv-ok</span></a></li>
-					<li id="tv-source" class="myButton-${config.remote_template}"><a href="#" title="tv-source"><span>tv-source</span></a></li>
-					<li id="tv-volmin" class="myButton-${config.remote_template}"><a href="#" title="tv-volmin"><span>tv-volmin</span></a></li>
-					<li id="tv-volplus" class="myButton-${config.remote_template}"><a href="#" title="tv-volplus"><span>tv-volplus</span></a></li>
-                </ul>
+					<li class="myButton-${config.remote_template}" id="stb"><a href="#" title="stb"><span>stb</span></a></li>
+					<li class="myButton-${config.remote_template}" id="tv"><a href="#" title="tv"><span>tv</span></a></li>
+					<li class="myButton-${config.remote_template}" id="tv-ok"><a href="#" title="tv-ok"><span>tv-ok</span></a></li>
+					<li class="myButton-${config.remote_template}" id="tv-source"><a href="#" title="tv-source"><span>tv-source</span></a></li>
+					<li class="myButton-${config.remote_template}" id="tv-volmin"><a href="#" title="tv-volmin"><span>tv-volmin</span></a></li>
+					<li class="myButton-${config.remote_template}" id="tv-volplus"><a href="#" title="tv-volplus"><span>tv-volplus</span></a></li>
 
-				<ul>
 					<li class="myButton-${config.remote_template}" id="one"><a href="#" title="one"><span>one</span></a></li>
 					<li class="myButton-${config.remote_template}" id="two"><a href="#" title="two"><span>two</span></a></li>
 					<li class="myButton-${config.remote_template}" id="three"><a href="#" title="three"><span>three</span></a></li>
@@ -556,14 +551,15 @@ function getRemoteHtml_z10promax(config){return `
 					<li class="myButton-${config.remote_template}" id="channeldown"><a href="#" title="channel down"><span>channeldown</span></a></li>
 					<li class="myButton-${config.remote_template}" id="volplus"><a href="#" title="vol plus"><span>volplus</span></a></li>
 					<li class="myButton-${config.remote_template}" id="volmin"><a href="#" title="vol min"><span>volmin</span></a></li>
-					<li class="myButton-${config.remote_template}" id="back"><a href="#" title="back"><span>back</span></a></li>
-					<li class="myButton-${config.remote_template}" id="home"><a href="#" title="home"><span>home</span></a></li>
-					<li class="myButton-${config.remote_template}" id="menu"><a href="#" title="menu"><span>menu</span></a></li>
 					<li class="myButton-${config.remote_template}" id="left"><a href="#" title="Left"><span>left</span></a></li>
 					<li class="myButton-${config.remote_template}" id="right"><a href="#" title="right"><span>right</span></a></li>
 					<li class="myButton-${config.remote_template}" id="top"><a href="#" title="top"><span>top</span></a></li>
 					<li class="myButton-${config.remote_template}" id="bottom"><a href="#" title="bottom"><span>bottom</span></a></li>
 					<li class="myButton-${config.remote_template}" id="ok"><a href="#" title="OK"><span>OK</span></a></li>
+
+					<li class="myButton-${config.remote_template}" id="back"><a href="#" title="back"><span>back</span></a></li>
+					<li class="myButton-${config.remote_template}" id="home"><a href="#" title="home"><span>home</span></a></li>
+					<li class="myButton-${config.remote_template}" id="menu"><a href="#" title="menu"><span>menu</span></a></li>
 				</ul>
 			</div>	
 		</div>

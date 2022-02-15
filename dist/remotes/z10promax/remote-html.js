@@ -555,7 +555,7 @@ function getRemoteHtml_z10promax(config){return `
 					<li class="myButton-${config.remote_template}" id="right"><a href="#" title="right"><span>right</span></a></li>
 					<li class="myButton-${config.remote_template}" id="top"><a href="#" title="top"><span>top</span></a></li>
 					<li class="myButton-${config.remote_template}" id="bottom"><a href="#" title="bottom"><span>bottom</span></a></li>
-					<li class="myButton-${config.remote_template}" id="ok"><a href="#" title="OK"><span>OK</span></a></li>
+					<li class="myButton-${config.remote_template}" id="ok"><a href="#" title="ok"><span>ok</span></a></li>
 
 					<li class="myButton-${config.remote_template}" id="back"><a href="#" title="back"><span>back</span></a></li>
 					<li class="myButton-${config.remote_template}" id="home"><a href="#" title="home"><span>home</span></a></li>

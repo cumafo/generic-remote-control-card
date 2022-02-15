@@ -79,8 +79,8 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#stb a {
-	left: 105px;
-	top: 40px;
+	left: 111px;
+	top: 56px;
 	width: 19px;
 	height: 7px;
 	background: url(${base_url}/stb.png) no-repeat
@@ -91,10 +91,10 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#tv a {
 	left: 30px;
-	top: 40px;
+	top: 56px;
 	width: 13px;
 	height: 7px;
-	background: url(${base_url}/stb.png) no-repeat
+	background: url(${base_url}/tv.png) no-repeat
 }
 #remote-control-z10promax li#tv a:hover {
 	background: url(${base_url}/tv_over.png) no-repeat 0px 0px;
@@ -102,7 +102,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#tv-ok a {
 	left: 28px;
-	top: 101px;
+	top: 99px;
 	width: 15px;
 	height: 7px;
 	background: url(${base_url}/tv-ok.png) no-repeat 0px 0px;
@@ -112,8 +112,8 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#tv-source a {
-	left: 50px;
-	top: 101px;
+	left: 53px;
+	top: 99px;
 	width: 34px;
 	height: 7px;
 	background: url(${base_url}/tv-source.png) no-repeat 0px 0px;
@@ -123,8 +123,8 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#tv-volmin a {
-	left: 78px;
-	top: 101px;
+	left: 80px;
+	top: 98px;
 	width: 20px;
 	height: 8px;
 	background: url(${base_url}/tv-volmin.png) no-repeat 0px 0px;
@@ -134,8 +134,8 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#tv-volplus a {
-	left: 108px;
-	top: 101px;
+	left: 110px;
+	top: 97px;
 	width: 24px;
 	height: 8px;
 	background: url(${base_url}/tv-volplus.png) no-repeat 0px 0px;

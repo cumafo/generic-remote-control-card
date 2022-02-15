@@ -39,6 +39,10 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #power a,
+#tv-ok a,
+#tv-source a,
+#tv-volmin a,
+#tv-volplus a,
 #one a,
 #two a,
 #three a,
@@ -80,6 +84,51 @@ function getRemoteStyle_z10promax(config) {
 	height: 32px;
 	background: url(${base_url}/power.png) no-repeat
 }
+
+#remote-control-z10promax li#tv-ok a {
+	left: 28px;
+	top: 101px;
+	width: 9px;
+	height: 19px;
+	background: url(${base_url}/tv-ok.png) no-repeat 0 0px
+}
+#remote-control-z10promax li#tv-ok a:hover {
+	background: url(${base_url}/tv-ok_over.png) no-repeat 0 0px;
+}
+
+#remote-control-z10promax li#tv-source a {
+	left: 33px;
+	top: 132px;
+	width: 9px;
+	height: 19px;
+	background: url(${base_url}/tv-source.png) no-repeat 0 0px
+}
+#remote-control-z10promax li#tv-source a:hover {
+	background: url(${base_url}/tv-source_over.png) no-repeat 0 0px;
+}
+
+#remote-control-z10promax li#tv-volmin a {
+	left: 33px;
+	top: 132px;
+	width: 9px;
+	height: 19px;
+	background: url(${base_url}/tv-volmin.png) no-repeat 0 0px
+}
+#remote-control-z10promax li#tv-volmin a:hover {
+	background: url(${base_url}/tv-volmin_over.png) no-repeat 0 0px;
+}
+
+#remote-control-z10promax li#tv-volplus a {
+	left: 33px;
+	top: 132px;
+	width: 9px;
+	height: 19px;
+	background: url(${base_url}/tv-volplus.png) no-repeat 0 0px
+}
+#remote-control-z10promax li#tv-volplus a:hover {
+	background: url(${base_url}/tv-volplus_over.png) no-repeat 0 0px;
+}
+
 
 #remote-control-z10promax li#one a {
 	left: 33px;
@@ -178,7 +227,7 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#groups a {
-	left: 111px;
+	left: 109px;
 	top: 216px;
 	width: 32px;
 	height: 15px;
@@ -361,6 +410,9 @@ function getRemoteStyle_z10promax(config) {
 	height: 12px;
     background: url(${base_url}/menu.png) no-repeat 0px 0px;
 }
+#remote-control-z10promax li#menu a:hover {
+	background: url(${base_url}/menu_over.png) no-repeat 0px 0px;
+}
 
 #remote-control-z10promax li#power a:hover {
 	background: url(${base_url}/power_over.png) no-repeat 0px 0px;
@@ -460,6 +512,10 @@ function getRemoteHtml_z10promax(config){return `
 				</h2>
 				<ul>
 					<li id="power" class="myButton-${config.remote_template}"><a href="#" title="power"><span>power</span></a></li>
+					<li id="tv-ok" class="myButton-${config.remote_template}"><a href="#" title="tv-ok"><span>tv-ok</span></a></li>
+					<li id="tv-source" class="myButton-${config.remote_template}"><a href="#" title="tv-source"><span>tv-source</span></a></li>
+					<li id="tv-volmin" class="myButton-${config.remote_template}"><a href="#" title="tv-volmin"><span>tv-volmin</span></a></li>
+					<li id="tv-volplus" class="myButton-${config.remote_template}"><a href="#" title="tv-volplus"><span>tv-volplus</span></a></li>
                 </ul>
 
 				<ul>

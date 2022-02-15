@@ -90,43 +90,43 @@ function getRemoteStyle_z10promax(config) {
 	top: 101px;
 	width: 15px;
 	height: 7px;
-	background: url(${base_url}/tv-ok.png) no-repeat 0 0px
+	background: url(${base_url}/tv-ok.png) no-repeat 0px 0px;
 }
 #remote-control-z10promax li#tv-ok a:hover {
-	background: url(${base_url}/tv-ok_over.png) no-repeat 0 0px;
+	background: url(${base_url}/tv-ok_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#tv-source a {
-	left: 33px;
-	top: 132px;
+	left: 50px;
+	top: 101px;
 	width: 34px;
 	height: 7px;
-	background: url(${base_url}/tv-source.png) no-repeat 0 0px
+	background: url(${base_url}/tv-source.png) no-repeat 0px 0px;
 }
 #remote-control-z10promax li#tv-source a:hover {
-	background: url(${base_url}/tv-source_over.png) no-repeat 0 0px;
+	background: url(${base_url}/tv-source_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#tv-volmin a {
-	left: 33px;
-	top: 132px;
+	left: 78px;
+	top: 101px;
 	width: 20px;
 	height: 8px;
-	background: url(${base_url}/tv-volmin.png) no-repeat 0 0px
+	background: url(${base_url}/tv-volmin.png) no-repeat 0px 0px;
 }
 #remote-control-z10promax li#tv-volmin a:hover {
-	background: url(${base_url}/tv-volmin_over.png) no-repeat 0 0px;
+	background: url(${base_url}/tv-volmin_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#tv-volplus a {
-	left: 33px;
-	top: 132px;
+	left: 108px;
+	top: 101px;
 	width: 24px;
 	height: 8px;
-	background: url(${base_url}/tv-volplus.png) no-repeat 0 0px
+	background: url(${base_url}/tv-volplus.png) no-repeat 0px 0px;
 }
 #remote-control-z10promax li#tv-volplus a:hover {
-	background: url(${base_url}/tv-volplus_over.png) no-repeat 0 0px;
+	background: url(${base_url}/tv-volplus_over.png) no-repeat 0px 0px;
 }
 
 
@@ -135,7 +135,7 @@ function getRemoteStyle_z10promax(config) {
 	top: 132px;
 	width: 9px;
 	height: 19px;
-	background: url(${base_url}/one.png) no-repeat 0 0px
+	background: url(${base_url}/one.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#two a {
@@ -143,7 +143,7 @@ function getRemoteStyle_z10promax(config) {
 	top: 131px;
 	width: 9px;
 	height: 19px;
-	background: url(${base_url}/two.png) no-repeat 0 0px
+	background: url(${base_url}/two.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#three a {
@@ -151,7 +151,7 @@ function getRemoteStyle_z10promax(config) {
 	top: 132px;
 	width: 9px;
 	height: 19px;
-	background: url(${base_url}/three.png) no-repeat 0 0px
+	background: url(${base_url}/three.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#four a {
@@ -159,7 +159,7 @@ function getRemoteStyle_z10promax(config) {
 	top: 160px;
 	width: 9px;
 	height: 19px;
-	background: url(${base_url}/four.png) no-repeat 0 0px
+	background: url(${base_url}/four.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#five a {
@@ -167,7 +167,7 @@ function getRemoteStyle_z10promax(config) {
 	top: 159px;
 	width: 9px;
 	height: 19px;
-	background: url(${base_url}/five.png) no-repeat 0 0px
+	background: url(${base_url}/five.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#six a {
@@ -175,7 +175,7 @@ function getRemoteStyle_z10promax(config) {
 	top: 159px;
 	width: 9px;
 	height: 19px;
-	background: url(${base_url}/six.png) no-repeat 0 0px
+	background: url(${base_url}/six.png) no-repeat 0px 0px;
 }
 
 
@@ -184,7 +184,7 @@ function getRemoteStyle_z10promax(config) {
 	top: 187px;
 	width: 9px;
 	height: 19px;
-	background: url(${base_url}/seven.png) no-repeat 0 0px
+	background: url(${base_url}/seven.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#eight a {
@@ -192,7 +192,7 @@ function getRemoteStyle_z10promax(config) {
 	top: 186px;
 	width: 9px;
 	height: 19px;
-	background: url(${base_url}/eight.png) no-repeat 0 0px
+	background: url(${base_url}/eight.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#nine a {
@@ -200,7 +200,7 @@ function getRemoteStyle_z10promax(config) {
 	top: 186px;
 	width: 9px;
 	height: 19px;
-	background: url(${base_url}/nine.png) no-repeat 0 0px
+	background: url(${base_url}/nine.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#favo a {
@@ -208,10 +208,10 @@ function getRemoteStyle_z10promax(config) {
 	top: 219px;
 	width: 32px;
 	height: 10px;
-	background: url(${base_url}/favo.png) no-repeat 0 0px
+	background: url(${base_url}/favo.png) no-repeat 0px 0px;
 }
 #remote-control-z10promax li#favo a:hover {
-	background: url(${base_url}/favo_over.png) no-repeat 0 0px;
+	background: url(${base_url}/favo_over.png) no-repeat 0px 0px;
 }
 
 
@@ -220,10 +220,10 @@ function getRemoteStyle_z10promax(config) {
 	top: 214px;
 	width: 9px;
 	height: 19px;
-	background: url(${base_url}/zero.png) no-repeat 0 0px
+	background: url(${base_url}/zero.png) no-repeat 0px 0px;
 }
 #remote-control-z10promax li#zero a:hover {
-	background: url(${base_url}/zero_over.png) no-repeat 0 0px;
+	background: url(${base_url}/zero_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#groups a {
@@ -231,10 +231,10 @@ function getRemoteStyle_z10promax(config) {
 	top: 216px;
 	width: 32px;
 	height: 15px;
-	background: url(${base_url}/groups.png) no-repeat 0 0px
+	background: url(${base_url}/groups.png) no-repeat 0px 0px;
 }
 #remote-control-z10promax li#groups a:hover {
-	background: url(${base_url}/groups_over.png) no-repeat 0 0px;
+	background: url(${base_url}/groups_over.png) no-repeat 0px 0px;
 }
 
 
@@ -301,7 +301,7 @@ function getRemoteStyle_z10promax(config) {
 	background: url(${base_url}/info.png) no-repeat 0px 0px;
 }
 #remote-control-z10promax li#info a:hover {
-	background: url(${base_url}/info_over.png) no-repeat 0 0px;
+	background: url(${base_url}/info_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#guide a {
@@ -312,7 +312,7 @@ function getRemoteStyle_z10promax(config) {
 	background: url(${base_url}/guide.png) no-repeat 0px 0px;
 }
 #remote-control-z10promax li#guide a:hover {
-	background: url(${base_url}/guide_over.png) no-repeat 0 0px;
+	background: url(${base_url}/guide_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#volplus a {
@@ -328,7 +328,7 @@ function getRemoteStyle_z10promax(config) {
 	top: 359px;
 	width: 15px;
 	height: 14px;
-	background: url(${base_url}/volmin.png) no-repeat 0 0px
+	background: url(${base_url}/volmin.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#channelup a {
@@ -419,47 +419,47 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#one a:hover {
-	background: url(${base_url}/one_over.png) no-repeat 0 0px;
+	background: url(${base_url}/one_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#two a:hover {
-	background: url(${base_url}/two_over.png) no-repeat 0 0px;
+	background: url(${base_url}/two_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#three a:hover {
-	background: url(${base_url}/three_over.png) no-repeat 0 0px;
+	background: url(${base_url}/three_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#four a:hover {
-	background: url(${base_url}/four_over.png) no-repeat 0 0px;
+	background: url(${base_url}/four_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#five a:hover {
-	background: url(${base_url}/five_over.png) no-repeat 0 0px;
+	background: url(${base_url}/five_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#six a:hover {
-	background: url(${base_url}/six_over.png) no-repeat 0 0px;
+	background: url(${base_url}/six_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#seven a:hover {
-	background: url(${base_url}/seven_over.png) no-repeat 0 0px;
+	background: url(${base_url}/seven_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#eight a:hover {
-	background: url(${base_url}/eight_over.png) no-repeat 0 0px;
+	background: url(${base_url}/eight_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#nine a:hover {
-	background: url(${base_url}/nine_over.png) no-repeat 0 0px;
+	background: url(${base_url}/nine_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#volplus a:hover {
-	background: url(${base_url}/volplus_over.png) no-repeat 0 0px;
+	background: url(${base_url}/volplus_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#volmin a:hover {
-	background: url(${base_url}/volmin_over.png) no-repeat 0 0px;
+	background: url(${base_url}/volmin_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#left a:hover {

@@ -90,7 +90,7 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#tv a {
-	left: 32px;
+	left: 33px;
 	top: 56px;
 	width: 13px;
 	height: 7px;
@@ -112,7 +112,7 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#tv-source a {
-	left: 55px;
+	left: 57px;
 	top: 99px;
 	width: 34px;
 	height: 7px;
@@ -123,7 +123,7 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#tv-volmin a {
-	left: 82px;
+	left: 83px;
 	top: 98px;
 	width: 20px;
 	height: 8px;
@@ -254,7 +254,7 @@ function getRemoteStyle_z10promax(config) {
 
 
 #remote-control-z10promax li#red a {
-	left: 19px;
+	left: 20px;
 	top: 245px;
 	width: 20px;
 	height: 14px;
@@ -310,7 +310,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#info a {
 	left: 28px;
-	top: 280px;
+	top: 279px;
 	width: 32px;
 	height: 10px;
 	background: url(${base_url}/info.png) no-repeat 0px 0px;
@@ -321,7 +321,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#guide a {
 	left: 102px;
-	top: 280px;
+	top: 279px;
 	width: 32px;
 	height: 10px;
 	background: url(${base_url}/guide.png) no-repeat 0px 0px;
@@ -347,16 +347,16 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#channelup a {
-	left: 129px;
-	top: 308px;
+	left: 127px;
+	top: 307px;
 	width: 15px;
 	height: 14px;
 	background: url(${base_url}/channelup.png) no-repeat 0px 0px
 }
 
 #remote-control-z10promax li#channeldown a {
-	left: 129px;
-	top: 353px;
+	left: 127px;
+	top: 352px;
 	width: 15px;
 	height: 14px;
 	background: url(${base_url}/channeldown.png) no-repeat 0px 0px
@@ -364,7 +364,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#left a {
 	left: 38px;
-	top: 325px;
+	top: 324px;
 	width: 13px;
 	height: 22px;
 	background: url(${base_url}/left.png) no-repeat 0px 0px
@@ -372,7 +372,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#right a {
 	left: 106px;
-	top: 325px;
+	top: 324px;
 	width: 13px;
 	height: 22px;
 	background: url(${base_url}/right.png) no-repeat 0px 0px;
@@ -380,7 +380,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#top a {
 	left: 68px;
-	top: 301px;
+	top: 299px;
 	width: 22px;
 	height: 13px;
 	background: url(${base_url}/top.png) no-repeat 0px 0px;
@@ -388,7 +388,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#bottom a {
 	left: 68px;
-	top: 363px;
+	top: 361px;
 	width: 22px;
 	height: 13px;
 	background: url(${base_url}/bottom.png) no-repeat 0px 0px;
@@ -404,7 +404,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#back a {
 	left: 20px;
-	top: 387px;
+	top: 385px;
     width: 38px;
     height: 27px;
     background: url(${base_url}/back.png) no-repeat 0px 0px;
@@ -412,7 +412,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#home a {
 	left: 70px;
-	top: 392px;
+	top: 390px;
 	width: 16px;
 	height: 16px;
 	background: url(${base_url}/home.png) no-repeat 0px 0px;
@@ -420,7 +420,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#menu a {
 	left: 117px;
-	top: 390px;
+	top: 388px;
 	width: 30px;
 	height: 12px;
     background: url(${base_url}/menu.png) no-repeat 0px 0px;

@@ -23,7 +23,7 @@ function getRemoteStyle_z10promax(config) {
     position: relative;
     background: url(${base_url}/z10promax_remote.png) no-repeat;
     width: 159px;
-    height: 596px
+    height: 599px
 }
 
 #remote-control-z10promax h2,

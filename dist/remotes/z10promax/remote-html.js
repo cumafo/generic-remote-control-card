@@ -16,7 +16,7 @@ function getRemoteStyle_z10promax(config) {
 
 .container {
     width: 360px;
-    margin: 0 auto
+    margin: 1000px;
 }
 
 #remote-control-z10promax {

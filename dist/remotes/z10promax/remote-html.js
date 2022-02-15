@@ -155,9 +155,9 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#favo a {
-	left: 20px;
+	left: 19px;
 	top: 219px;
-	width: 28px;
+	width: 32px;
 	height: 10px;
 	background: url(${base_url}/favo.png) no-repeat 0 0px
 }
@@ -178,7 +178,7 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#groups a {
-	left: 115px;
+	left: 111px;
 	top: 216px;
 	width: 32px;
 	height: 15px;

@@ -50,6 +50,7 @@ function getRemoteStyle_z10promax(config) {
 #nine a,
 #favo a,
 #zero a,
+#groups a,
 #red a,
 #green a,
 #yellow a,
@@ -201,7 +202,7 @@ function getRemoteStyle_z10promax(config) {
 #remote-control-z10promax li#green a {
 	left: 53px;
 	top: 247px;
-	width: 28px;
+	width: 20px;
 	height: 14px;
 	background: url(${base_url}/green.png) no-repeat
 }
@@ -209,12 +210,12 @@ function getRemoteStyle_z10promax(config) {
 #remote-control-z10promax li#green a:hover {
 	background-image: url(${base_url}/green.png);
 	background-repeat: no-repeat;
-	background-position: 0 -30px
+	background-position: 0 -14px
 }  
 #remote-control-z10promax li#yellow a {
-	left: 87px;
+	left: 86px;
 	top: 247px;
-	width: 28px;
+	width: 20px;
 	height: 14px;
 	background: url(${base_url}/yellow.png) no-repeat
 }
@@ -222,12 +223,12 @@ function getRemoteStyle_z10promax(config) {
 #remote-control-z10promax li#yellow a:hover {
 	background-image: url(${base_url}/yellow.png);
 	background-repeat: no-repeat;
-	background-position: 0 -30px
+	background-position: 0 -14px
 }  
 #remote-control-z10promax li#blue a {
-	left: 122px;
+	left: 121px;
 	top: 247px;
-	width: 28px;
+	width: 20px;
 	height: 14px;
 	background: url(${base_url}/blue.png) no-repeat
 }
@@ -235,7 +236,7 @@ function getRemoteStyle_z10promax(config) {
 #remote-control-z10promax li#blue a:hover {
 	background-image: url(${base_url}/blue.png);
 	background-repeat: no-repeat;
-	background-position: 0 -30px
+	background-position: 0 -14px
 }  
 
 
@@ -463,6 +464,7 @@ function getRemoteHtml_z10promax(config){return `
 					<li class="myButton-${config.remote_template}" id="nine"><a href="#" title="nine"><span>nine</span></a></li>
 					<li class="myButton-${config.remote_template}" id="favo"><a href="#" title="favo"><span>favo</span></a></li>
 					<li class="myButton-${config.remote_template}" id="zero"><a href="#" title="zero"><span>zero</span></a></li>
+					<li class="myButton-${config.remote_template}" id="groups"><a href="#" title="groups"><span>groups</span></a></li>
 
 					<li class="myButton-${config.remote_template}" id="red"><a href="#" title="red"><span>red</span></a></li>
 					<li class="myButton-${config.remote_template}" id="green"><a href="#" title="green"><span>green</span></a></li>

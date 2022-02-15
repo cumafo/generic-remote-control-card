@@ -38,7 +38,8 @@ function getRemoteStyle_z10promax(config) {
     list-style-type: none
 }
 
-#power a,
+#stb a,
+#tv a,
 #tv-ok a,
 #tv-source a,
 #tv-volmin a,
@@ -77,12 +78,26 @@ function getRemoteStyle_z10promax(config) {
 	display: block
 }
 
-#remote-control-z10promax li#power a {
+#remote-control-z10promax li#stb a {
 	left: 105px;
-	top: 42px;
-	width: 30px;
-	height: 32px;
-	background: url(${base_url}/power.png) no-repeat
+	top: 40px;
+	width: 19px;
+	height: 7px;
+	background: url(${base_url}/stb.png) no-repeat
+}
+#remote-control-z10promax li#stb a:hover {
+	background: url(${base_url}/stb_over.png) no-repeat 0px 0px;
+}
+
+#remote-control-z10promax li#tv a {
+	left: 30px;
+	top: 40px;
+	width: 13px;
+	height: 7px;
+	background: url(${base_url}/stb.png) no-repeat
+}
+#remote-control-z10promax li#tv a:hover {
+	background: url(${base_url}/tv_over.png) no-repeat 0px 0px;
 }
 
 #remote-control-z10promax li#tv-ok a {
@@ -414,10 +429,6 @@ function getRemoteStyle_z10promax(config) {
 	background: url(${base_url}/menu_over.png) no-repeat 0px 0px;
 }
 
-#remote-control-z10promax li#power a:hover {
-	background: url(${base_url}/power_over.png) no-repeat 0px 0px;
-}
-
 #remote-control-z10promax li#one a:hover {
 	background: url(${base_url}/one_over.png) no-repeat 0px 0px;
 }
@@ -511,7 +522,8 @@ function getRemoteHtml_z10promax(config){return `
 					Main navigation
 				</h2>
 				<ul>
-					<li id="power" class="myButton-${config.remote_template}"><a href="#" title="power"><span>power</span></a></li>
+					<li id="stb" class="myButton-${config.remote_template}"><a href="#" title="stb"><span>stb</span></a></li>
+					<li id="tv" class="myButton-${config.remote_template}"><a href="#" title="tv"><span>tv</span></a></li>
 					<li id="tv-ok" class="myButton-${config.remote_template}"><a href="#" title="tv-ok"><span>tv-ok</span></a></li>
 					<li id="tv-source" class="myButton-${config.remote_template}"><a href="#" title="tv-source"><span>tv-source</span></a></li>
 					<li id="tv-volmin" class="myButton-${config.remote_template}"><a href="#" title="tv-volmin"><span>tv-volmin</span></a></li>

@@ -348,7 +348,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#channelup a {
 	left: 127px;
-	top: 307px;
+	top: 305px;
 	width: 15px;
 	height: 14px;
 	background: url(${base_url}/channelup.png) no-repeat 0px 0px
@@ -380,7 +380,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#top a {
 	left: 68px;
-	top: 299px;
+	top: 297px;
 	width: 22px;
 	height: 13px;
 	background: url(${base_url}/top.png) no-repeat 0px 0px;
@@ -396,7 +396,7 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#ok a {
 	left: 67px;
-	top: 325px;
+	top: 324px;
 	width:23px;
 	height:24px;
 	background: url(${base_url}/ok.png) no-repeat 0px 0px;

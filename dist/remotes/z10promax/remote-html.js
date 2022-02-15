@@ -161,6 +161,10 @@ function getRemoteStyle_z10promax(config) {
 	height: 10px;
 	background: url(${base_url}/favo.png) no-repeat 0 0px
 }
+#remote-control-z10promax li#favo a:hover {
+	background: url(${base_url}/favo_over.png) no-repeat 0 0px;
+}
+
 
 #remote-control-z10promax li#zero a {
 	left: 77px;
@@ -200,7 +204,7 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#green a {
-	left: 53px;
+	left: 52px;
 	top: 247px;
 	width: 20px;
 	height: 14px;
@@ -243,9 +247,12 @@ function getRemoteStyle_z10promax(config) {
 #remote-control-z10promax li#info a {
 	left: 28px;
 	top: 282px;
-	width: 20px;
+	width: 32px;
 	height: 10px;
 	background: url(${base_url}/info.png) no-repeat 0px 0px;
+}
+#remote-control-z10promax li#info a:hover {
+	background: url(${base_url}/info_over.png) no-repeat 0 0px;
 }
 
 #remote-control-z10promax li#guide a {
@@ -254,6 +261,9 @@ function getRemoteStyle_z10promax(config) {
 	width: 32px;
 	height: 10px;
 	background: url(${base_url}/guide.png) no-repeat 0px 0px;
+}
+#remote-control-z10promax li#guide a:hover {
+	background: url(${base_url}/guide_over.png) no-repeat 0 0px;
 }
 
 #remote-control-z10promax li#volplus a {

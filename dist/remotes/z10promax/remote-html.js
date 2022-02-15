@@ -9,8 +9,8 @@ function getRemoteStyle_z10promax(config) {
         box-shadow:var(--paper-material-elevation-0_-_box-shadow);
     }
     body {
-    margin: 1000px;
-    padding: 20px;
+    margin: 0px;
+    padding: 2000px;
     font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif
 }
 
@@ -29,7 +29,7 @@ function getRemoteStyle_z10promax(config) {
 #remote-control-z10promax h2,
 #remote-control-z10promax span {
     position: absolute;
-    left: 1000px
+    left: -1000px
 }
 
 #remote-control-z10promax ul {

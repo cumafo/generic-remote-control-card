@@ -174,8 +174,8 @@ function getRemoteStyle_z10promax(config) {
 }
 
 #remote-control-z10promax li#groups a {
-	left: 121px;
-	top: 214px;
+	left: 115px;
+	top: 216px;
 	width: 32px;
 	height: 15px;
 	background: url(${base_url}/groups.png) no-repeat 0 0px
@@ -197,7 +197,7 @@ function getRemoteStyle_z10promax(config) {
 	background-image: url(${base_url}/red.png);
 	background-repeat: no-repeat;
 	background-position: 0 -14px
-} 14
+}
 
 #remote-control-z10promax li#green a {
 	left: 53px;

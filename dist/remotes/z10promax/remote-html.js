@@ -9,7 +9,7 @@ function getRemoteStyle_z10promax(config) {
         box-shadow:var(--paper-material-elevation-0_-_box-shadow);
     }
     body {
-    margin: 0;
+    margin: 1000px;
     padding: 20px;
     font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif
 }

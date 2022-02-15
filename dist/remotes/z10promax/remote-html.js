@@ -168,6 +168,21 @@ function getRemoteStyle_z10promax(config) {
 	height: 19px;
 	background: url(${base_url}/zero.png) no-repeat 0 0px
 }
+#remote-control-z10promax li#zero a:hover {
+	background: url(${base_url}/zero_over.png) no-repeat 0 0px;
+}
+
+#remote-control-z10promax li#groups a {
+	left: 121px;
+	top: 214px;
+	width: 32px;
+	height: 15px;
+	background: url(${base_url}/groups.png) no-repeat 0 0px
+}
+#remote-control-z10promax li#groups a:hover {
+	background: url(${base_url}/groups_over.png) no-repeat 0 0px;
+}
+
 
 #remote-control-z10promax li#red a {
 	left: 17px;
@@ -184,8 +199,8 @@ function getRemoteStyle_z10promax(config) {
 } 14
 
 #remote-control-z10promax li#green a {
-	left: 87px;
-	top: 287px;
+	left: 53px;
+	top: 247px;
 	width: 28px;
 	height: 14px;
 	background: url(${base_url}/green.png) no-repeat
@@ -197,8 +212,8 @@ function getRemoteStyle_z10promax(config) {
 	background-position: 0 -30px
 }  
 #remote-control-z10promax li#yellow a {
-	left: 131px;
-	top: 287px;
+	left: 87px;
+	top: 247px;
 	width: 28px;
 	height: 14px;
 	background: url(${base_url}/yellow.png) no-repeat
@@ -210,8 +225,8 @@ function getRemoteStyle_z10promax(config) {
 	background-position: 0 -30px
 }  
 #remote-control-z10promax li#blue a {
-	left: 172px;
-	top: 287px;
+	left: 122px;
+	top: 247px;
 	width: 28px;
 	height: 14px;
 	background: url(${base_url}/blue.png) no-repeat
@@ -374,10 +389,6 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#nine a:hover {
 	background: url(${base_url}/nine_over.png) no-repeat 0 0px;
-}
-
-#remote-control-z10promax li#zero a:hover {
-	background: url(${base_url}/zero_over.png) no-repeat 0 0px;
 }
 
 #remote-control-z10promax li#volplus a:hover {

@@ -185,9 +185,9 @@ function getRemoteStyle_z10promax(config) {
 
 #remote-control-z10promax li#green a {
 	left: 87px;
-	top: 623px;
-	width: 32px;
-	height: 30px;
+	top: 287px;
+	width: 28px;
+	height: 14px;
 	background: url(${base_url}/green.png) no-repeat
 }
 
@@ -198,9 +198,9 @@ function getRemoteStyle_z10promax(config) {
 }  
 #remote-control-z10promax li#yellow a {
 	left: 131px;
-	top: 623px;
-	width: 32px;
-	height: 30px;
+	top: 287px;
+	width: 28px;
+	height: 14px;
 	background: url(${base_url}/yellow.png) no-repeat
 }
 
@@ -211,9 +211,9 @@ function getRemoteStyle_z10promax(config) {
 }  
 #remote-control-z10promax li#blue a {
 	left: 172px;
-	top: 633px;
-	width: 32px;
-	height: 30px;
+	top: 287px;
+	width: 28px;
+	height: 14px;
 	background: url(${base_url}/blue.png) no-repeat
 }
 

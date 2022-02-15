@@ -29,7 +29,7 @@ function getRemoteStyle_z10promax(config) {
 #remote-control-z10promax h2,
 #remote-control-z10promax span {
     position: absolute;
-    left: 5000px
+    left: 1000px
 }
 
 #remote-control-z10promax ul {
